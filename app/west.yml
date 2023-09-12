@@ -10,7 +10,7 @@ manifest:
     - name: zmk-zephyr
       path: zephyr
       remote: infused-kim
-      revision: pr/ps2_gpio
+      revision: testing/ps2_gpio_zmk_rebase
       clone-depth: 1
       import:
         name-blocklist:
