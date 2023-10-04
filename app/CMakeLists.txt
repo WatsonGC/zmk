@@ -102,6 +102,7 @@ target_sources(app PRIVATE src/workqueue.c)
 
 target_sources_ifdef(CONFIG_ZMK_MOUSE_PS2 app PRIVATE src/mouse/mouse_ps2.c)
 target_sources_ifdef(CONFIG_ZMK_MOUSE_PS2 app PRIVATE src/behaviors/behavior_mouse_setting.c)
+target_sources_ifdef(CONFIG_ZMK_MOUSE_PS2 app PRIVATE src/behaviors/behavior_mouse_scroll_mode.c)
 
 target_sources(app PRIVATE src/main.c)
 
